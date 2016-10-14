@@ -17,7 +17,7 @@ module.exports = (app, express) => {
 	app.use(function (req, res, next) {
 
 	  // Website you wish to allow to connect
-	  res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:8080');
+	  res.setHeader('Access-Control-Allow-Origin', 'http://ec2-52-91-116-191.compute-1.amazonaws.com');
 
 	  // Request methods you wish to allow
 	  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
